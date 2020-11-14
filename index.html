@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro JQuery</title>
+
+    <script src="https://ajax__.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code__.jquery.com/color/jquery.color-2.2.0.js"
+        integrity="sha256-gvMJWDHjgDrVSiN6eBI9h7dRfQmsTTsGU/eTT8vpzNg=" crossorigin="anonymous"></script>
+    
+    <script>
+        /*window.jQuery || alert("No CDN jQUery!!!");*/
+        window.jQuery || document.write('<script type="text/javascript" src="js/jquery-3.5.1.js"><\/script>');
+        window.jQuery || document.write('<script type="text/javascript" src="js/jquery-color.js"><\/script>');
+    </script>
+
+    <script src="js/main.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="main"></div>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <div id="mydiv" class="bordered"></div>
+
+    <form class="pure-form pure-form-aligned">
+        <fieldset>
+            <div class="pure-control-group">
+                <label for="aligned-name">Username</label>
+                <input type="text" id="aligned-name" placeholder="Username" />
+                <span class="pure-form-message-inline">This is a required field.</span>
+            </div>
+            <div class="pure-control-group">
+                <label for="aligned-password">Password</label>
+                <input type="password" id="aligned-password" placeholder="Password" />
+            </div>
+            <div class="pure-control-group">
+                <label for="aligned-email">Email Address</label>
+                <input type="email" id="aligned-email" placeholder="Email Address" />
+            </div>
+            <div class="pure-control-group">
+                <label for="aligned-foo">Supercalifragilistic Label</label>
+                <input type="text" id="aligned-foo" placeholder="Enter something here..." />
+            </div>
+            <div class="pure-controls">
+                <label for="aligned-cb" class="pure-checkbox">
+                    <input type="checkbox" id="aligned-cb" /> I&#x27;ve read the terms and conditions</label>
+                <button type="submit" class="pure-button pure-button-primary">Submit</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+alert("Sono dentro il file alert.js");
